@@ -2,9 +2,11 @@ import streamlit as st
 # import openai
 import pandas as pd
 import os
-from dotenv import load_dotenv
-load_dotenv()
 
+from dotenv import load_dotenv, find_dotenv
+_ = load_dotenv(find_dotenv()) # read local .env file
+
+openai.api_key  = os.getenv('OPENAI_API_KEY')
 # Streamlit UI
 st.title('🏦 Bank Transaction Analysis with GenAI')
 st.write('Ask questions about your recent bank transactions.')
