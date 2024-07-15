@@ -4,15 +4,15 @@
 Below are the step-by-step instructions to set up and run the code for asking questions about transactions:
 ### Project Directory
 
-├── .env- It contains the Gemini API Key for LLM Handling <br> 
-├── chat_completion.py - Contains functions to interact with the LLM for intent and date extraction using Google Generative AI models.  <br>
-├── data_retriever.py Retrieves and processes user query data by interacting with the LLM  API to extract intent, dates, category, and transaction type from the response. <br>
-├── data.csv- It contains the Transactional data<br>
-├── date_query_templates.py- Contains templates for querying data based on dates and intent <br> 
-├── intent_handlers.py - It handles retrieving and processing transaction data for a specific client. It includes methods to fetch transactions, transaction amounts, and transactions by category or merchant.<br>
-├── main.py- It describes the implementation of a Streamlit application that allows users to analyze their bank transactions using a GenAI-powered query system<br>
-├── README.md  - It contains necessary guidelines to run the application <br>
-└── requirements.txt -It contains the necessary libraries to install <br>
+├── .env -> It contains the Gemini API Key for LLM Handling <br> 
+├── chat_completion.py -> Contains functions to interact with the LLM for intent and date extraction using Google Generative AI models.  <br>
+├── data_retriever.py -> Retrieves and processes user query data by interacting with the LLM  API to extract intent, dates, category, and transaction type from the response. <br>
+├── data.csv -> It contains the Transactional data<br>
+├── date_query_templates.py -> Contains templates for querying data based on dates and intent <br> 
+├── intent_handlers.py -> It handles retrieving and processing transaction data for a specific client. It includes methods to fetch transactions, transaction amounts, and transactions by category or merchant.<br>
+├── main.py -> It describes the implementation of a Streamlit application that allows users to analyze their bank transactions using a GenAI-powered query system<br>
+├── README.md  -> It contains necessary guidelines to run the application <br>
+└── requirements.txt -> It contains the necessary libraries to install <br>
 ### Prerequisites
 - Ensure you have Python and the required dependencies installed. 
 - The dependencies are listed in requirements.txt.
