@@ -2,7 +2,17 @@
 ## Instructions to Run the Submission
 
 Below are the step-by-step instructions to set up and run the code for asking questions about transactions:
+### Project Directory
 
+├── .env <br> 
+├── chat_completion.py <br>
+├── data_retriever.py<br>
+├── data.csv<br>
+├── date_query_templates.py<br>
+├── intent_handlers.py<br>
+├── main.py<br>
+├── README.md<br>
+└── requirements.txt<br>
 ### Prerequisites
 - Ensure you have Python and the required dependencies installed. 
 - The dependencies are listed in requirements.txt.
