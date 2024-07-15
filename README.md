@@ -4,7 +4,7 @@
 Below are the step-by-step instructions to set up and run the code for asking questions about transactions:
 ### Project Directory
 
-├── .env- It contains the Gemini API Key for LLM Handling <br> - 
+├── .env- It contains the Gemini API Key for LLM Handling <br> 
 ├── chat_completion.py - Contains functions to interact with the LLM for intent and date extraction using Google Generative AI models.  <br>
 ├── data_retriever.py Retrieves and processes user query data by interacting with the LLM  API to extract intent, dates, category, and transaction type from the response. <br>
 ├── data.csv- It contains the Transactional data<br>
