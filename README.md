@@ -43,8 +43,8 @@ pip install -r requirements.txt
 
 ### How to Interact with the QA System
 
-**Ask a Question**:
-    - Enter your queries related to your transactional data in the text input field and click on enter <be>
-    - The system will display the answer fetched from the transactional data using the LLM Prompts.
+**Ask a Question**: <be>
+    - Enter your queries related to your transactional data in the text input field and click on enter <br>
+    - The system will display the answer fetched from the transactional data using the LLM Prompts. <be>
 
 <img width="1432" alt="Screenshot" src="https://github.com/Lakshmiec/genai_app-for-bank_transactions/blob/main/App_image.png">
