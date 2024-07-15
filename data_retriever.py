@@ -1,7 +1,8 @@
 
 from chat_completion import get_intent, get_date
+import json
 
-def get_response_data(user_query)
+def get_response_data(user_query):
 
     # Get responses
     intent_response = get_intent(user_query)
@@ -21,13 +22,13 @@ def get_response_data(user_query)
 
     # Load date values into a list
     dates = [start_date, end_date] if start_date and end_date else [single_date]
-
+    
     return intent, category, transaction_type, dates
 
 
 # # Sample user query
-# user_query = "List transactions I have done during last week"
-
+# user_query = "What's the total amount I've spent today July 7 2023"
+# get_response_data(user_query)
 # # Call the appropriate function based on the intent
 # if intent == "RetrieveTransactionList":
 #     retrieve_transaction_list(dates)
