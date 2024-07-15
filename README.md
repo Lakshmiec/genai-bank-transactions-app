@@ -10,8 +10,8 @@ Below are the step-by-step instructions to set up and run the code for asking qu
 ### Steps:
 
 1. **Clone the Repository:**
-<br>
-Download or clone the repository to your local machine.
+
+- Download or clone the repository to your local machine.
 
 2. **Install Dependencies:**
 - Navigate to the project directory:
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ### How to Interact with the QA System
 
-**Ask a Question**: <be>
+**Ask a Question**: <br>
     - Enter your queries related to your transactional data in the text input field and click on enter <br>
     - The system will display the answer fetched from the transactional data using the LLM Prompts. <be>
 
